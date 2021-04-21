@@ -1,0 +1,28 @@
+= Rx Java 2 - Reactive Programming and Libraries
+Clement Escoffier, Julien Viet, Stéphane Epardaud, Julien Ponge, Ozan Günalp
+v0.3, March, 11th, 2019
+:toc: left
+:toclevels: 4
+:imagesdir: images
+:docinfo1:
+:icons: font
+:sectnums:
+
+include::chapters/0-introduction.adoc[Introduction]
+
+include::chapters/1-thinking_reactive.adoc[Thinking the reactive way]
+
+include::chapters/2-observers_and_subscribers.adoc[Streams and Subscribers]
+
+include::chapters/3-single_completable_maybe.adoc[Streams of 1, 0, 0..1 and n elements]
+
+include::chapters/4-operators.adoc[Manipulating Streams and Data]
+
+include::chapters/5-creating_an_rx_api.adoc[Creating an RX API]
+
+include::chapters/6-schedulers.adoc[Schedulers and concurrency]
+
+include::chapters/7-testing.adoc[Testing all the things]
+
+include::chapters/8-conclusion.adoc[Conclusion]
+
